@@ -12,6 +12,10 @@
     "commander": "^2.19.0",
     "path": "^0.12.7"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Anshiii/mediocre-cli.git"
+  },
   "devDependencies": {
     "download-git-repo": "^1.1.0",
     "inquirer": "^6.2.2",
