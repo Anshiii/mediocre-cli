@@ -1,24 +1,24 @@
 {
   "name": "mediocre-cli",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "a cli help you starting work with a mediocre webpack config which only have loader for ts and babel.",
   "bin": {
-    "mediocre-cli": "./bin/mediocre.js"
+    "mediocre-cli": "./bin/mediocre-cli.js"
   },
   "author": "anshiii",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.2",
     "commander": "^2.19.0",
-    "path": "^0.12.7"
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:Anshiii/mediocre-cli.git"
   },
   "devDependencies": {
-    "download-git-repo": "^1.1.0",
-    "inquirer": "^6.2.2",
-    "ora": "^3.2.0"
+    "path": "^0.12.7",
+    "chalk": "^2.4.2"
   }
 }
